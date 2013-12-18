@@ -1,2 +1,2 @@
 #!/bin/sh
-mvn package exec:exec
+mvn clean package exec:exec

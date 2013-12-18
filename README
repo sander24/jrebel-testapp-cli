@@ -1,1 +1,1 @@
-just run "mvn exec:exec"
+just run "mvn compile exec:exec"

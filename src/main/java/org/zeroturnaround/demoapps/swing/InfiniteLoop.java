@@ -16,9 +16,13 @@ public class InfiniteLoop {
       catch (Exception e) {  
       }
       
-      System.out.println("--- this is cycle # " + counter);
-      counter++;
+      printStuff();
     }
+  }
+  
+  public void printStuff() {
+    System.out.println("--- this is cycleee # " + counter);
+    counter++;    
   }
   
 }
